@@ -1,0 +1,65 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center everything */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Counter number */
+#count {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Individual button colors */
+button:nth-child(2) {
+    background-color: #28a745;
+    color: white;
+}
+
+button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:nth-child(4) {
+    background-color: #ffc107;
+}
+
+/* Hover effect */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
